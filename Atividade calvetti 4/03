@@ -1,0 +1,41 @@
+UC – Sistemas Automatizados
+Resumo – Sala de Aula Invertida
+Os sistemas automatizados são compostos por dispositivos responsáveis por medir, transmitir, processar e controlar variáveis físicas em processos industriais. Esses sistemas garantem maior precisão, segurança e eficiência nas operações.
+Sensores Analógicos e Digitais
+Sensores são dispositivos que detectam grandezas físicas como temperatura, pressão, nível, luminosidade ou posição e as transformam em sinais utilizáveis por sistemas de controle.
+Os sensores analógicos fornecem sinais contínuos e proporcionais à variável medida, como tensão (0–10V) ou corrente (4–20 mA). São utilizados quando é necessário medir variações graduais, como temperatura ou pressão. Apesar de mais precisos em medições contínuas, são mais sensíveis a ruídos e necessitam de conversores A/D para serem interpretados por sistemas digitais.
+Os sensores digitais, por sua vez, trabalham com sinais discretos (0 ou 1), indicando apenas estados como ligado/desligado ou presença/ausência. Exemplos incluem sensores indutivos e chaves fim de curso. São mais simples, possuem maior imunidade a ruídos e são amplamente utilizados em CLPs.
+Transdutores
+Transdutores são dispositivos que convertem um tipo de energia em outro. Por exemplo, um termopar converte energia térmica em tensão elétrica, enquanto uma célula de carga transforma força mecânica em sinal elétrico.
+Todo sensor possui um transdutor interno responsável por essa conversão. Assim, o sensor detecta a grandeza física e o transdutor realiza a transformação em sinal elétrico.
+Conversores A/D e D/A
+Os sistemas automatizados utilizam conversores para integrar sinais analógicos e digitais.
+O conversor A/D (Analógico/Digital) transforma sinais analógicos em valores digitais que podem ser processados por CLPs e computadores. É utilizado na leitura de sensores de temperatura, pressão e nível.
+Já o conversor D/A (Digital/Analógico) realiza o processo inverso, convertendo sinais digitais em analógicos. É utilizado para controlar válvulas proporcionais, inversores de frequência e outros atuadores que exigem sinais variáveis.
+Esses dispositivos são essenciais para a comunicação entre o mundo físico e os sistemas digitais de controle.
+Transmissores
+Transmissores recebem o sinal do sensor e o convertem em um padrão industrial, geralmente 4–20 mA ou 0–10V, para envio ao sistema de controle. Sua principal função é padronizar o sinal e permitir transmissão segura a longas distâncias, reduzindo interferências.
+O padrão 4–20 mA é amplamente utilizado porque oferece maior imunidade a ruídos e permite identificação de falhas quando o sinal fica abaixo de 4 mA.
+Saídas Digitais e Analógicas
+As saídas digitais possuem apenas dois estados (ligado/desligado) e são utilizadas para acionar motores, lâmpadas, alarmes e contatores.
+As saídas analógicas permitem controle proporcional de dispositivos, como ajuste de velocidade de motores, controle de temperatura ou abertura de válvulas. Elas possibilitam maior precisão no controle dos processos industriais.
+Funções dos Instrumentos
+Nos sistemas automatizados, cada instrumento possui função específica:
+Medidores: realizam a medição da variável.
+Indicadores: exibem o valor medido.
+Registradores: armazenam dados ao longo do tempo.
+Controladores: comparam o valor medido com o valor desejado e realizam ajustes automaticamente (exemplo: controlador PID).
+Alarmes: alertam quando a variável ultrapassa limites pré-estabelecidos.
+Cada um desempenha papel fundamental dentro do processo de automação.
+Nomenclatura e Malhas de Controle
+Na automação industrial, utiliza-se padronização (como a norma ISA) para identificação dos instrumentos. Exemplos:
+TT – Transmissor de Temperatura
+PT – Transmissor de Pressão
+LT – Transmissor de Nível
+TIC – Controlador Indicador de Temperatura
+A malha de controle é o conjunto formado por sensor, transmissor, controlador e atuador.
+Ela pode ser:
+Malha aberta: não possui realimentação (exemplo: temporizador simples).
+Malha fechada: possui feedback e corrige automaticamente desvios (exemplo: controle automático de temperatura).
+A malha fechada é mais eficiente, pois mantém a variável controlada próxima ao valor desejado.
+
